@@ -10,5 +10,5 @@ Class (0 for authentic, 1 for inauthentic).
 The baseline performance of predicting the most prevalent class is a classification accuracy of approximately 50%.
 
 
-for more information:
+For more information:
 http://archive.ics.uci.edu/ml/datasets/banknote+authentication
