@@ -1,3 +1,3 @@
-This repository contains my work on Machine Learning projects 
+This repository contains my work with Machine Learning projects 
 
 # Machine Learning
