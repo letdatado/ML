@@ -4,7 +4,7 @@ Citation Request:
    M. Soklic for providing the data.  Please include this citation if you plan
    to use this database.
 
-1. Title: Breast cancer data (Michalski has used this)
+1. Title: Breast cancer data (<Michalski has used this)
 
 2. Sources:
    -- Matjaz Zwitter & Milan Soklic (physicians)
