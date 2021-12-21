@@ -1,8 +1,13 @@
 Install these packages to import plotly and ProfileReport
 
+For more information of both packages, please go through the documentations of each 
+https://plotly.com/python/plotly-express/
+https://pandas-profiling.github.io/pandas-profiling/docs/master/index.html
+
 pip install pandas-profiling --user
 !pip install plotly==5.4.0
 
 
 import plotly.express as px
+
 from pandas_profiling import ProfileReport
