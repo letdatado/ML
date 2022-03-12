@@ -11,3 +11,5 @@ pip install pandas-profiling --user
 import plotly.express as px
 
 from pandas_profiling import ProfileReport
+
+Credits: Shahaf Karp
