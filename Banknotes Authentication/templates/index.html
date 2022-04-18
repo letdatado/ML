@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Banknotes Authenticity Predictor</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Banknotes Authenticity Predictor</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+ 				<input class="form-input" type="text" name='variance' placeholder="Variance of the Wavelet Transformed Image"><br>
+                <input class="form-input" type="text" name="skewness" placeholder="Skewness of the Wavelet Transformed Image"><br>
+                <input class="form-input" type="text" name="kurtosis" placeholder="Kurtosis of the Wavelet Transformed Image"><br>
+                <input class="form-input" type="text" name="entropy" placeholder="Entropy of the image"><br>
+
+        		<input type="submit" class="my-cta-button" value="Predict the Authenticity">
+        	</form>
+    	</div>
+
+        <!-- Footer -->
+       <div class='footer'>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/letdatado"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/s-m-ali-rizvi-a1b550217"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Made by S M Ali with due credits to Anuj Vyas for the flask deployment. Thanks Anuj!</p>
+           			
+            
+       </div>
+
+    </body>
+</html>
