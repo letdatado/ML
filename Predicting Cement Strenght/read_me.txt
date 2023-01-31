@@ -12,7 +12,7 @@ The feature set includes:
 7. Fine Aggregate: Fineness of the cement (kg in a m3 mixture)
 8. Age: Age or time before it needs repairing (in days)
 
-The target set is:
+The target variable is:
 9. Strength of the Cement: Strength of concrete (/kN) per kiloNewton
 
 Sources:
